@@ -9,9 +9,5 @@ public class Array3 {
             System.out.println(patients[i]);
         }
 
-
-
-
-
     }
 }

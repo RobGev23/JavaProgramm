@@ -51,15 +51,26 @@ public class HomeWork {
          */
 
         System.out.println("-------------------------------");
+        System.out.println("-------------------------------");
 
-        String[] addWords = new String[75];
-        for (int i = 9; i <= 75 ; i++) {
-            System.out.println("Step " +  i  );
+        int count1 = 0;
+        for (int i = 75; i >= 9 ; i--) {
+            System.out.println(i);
+            count1++;
+        }
+        System.out.println(count1);
+        System.out.println("------------------------------");
+
+        String[] steps = new String[count1];
+
+        int number = 75;
+        for (int i = 0; i < steps.length; i++) {
+            steps[i] = "Step " + number;
+            number--;
         }
 
-
-
-
-
+        for (int i = 0; i < steps.length; i++) {
+            System.out.println(steps[i]);
+        }
     }
 }
